@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF37599E1E5CA29000BB1015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37599D1E5CA29000BB1015 /* main.m */; };
+		BF3759A11E5CA29000BB1015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3759A01E5CA29000BB1015 /* AppDelegate.m */; };
+		BF3759A41E5CA29000BB1015 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3759A31E5CA29000BB1015 /* ViewController.m */; };
+		BF3759A71E5CA29000BB1015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3759A51E5CA29000BB1015 /* Main.storyboard */; };
+		BF3759A91E5CA29000BB1015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3759A81E5CA29000BB1015 /* Assets.xcassets */; };
+		BF3759AC1E5CA29000BB1015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3759AA1E5CA29000BB1015 /* LaunchScreen.storyboard */; };
+		BF3759BA1E5CA2C400BB1015 /* TTGStarAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3759B51E5CA2C400BB1015 /* TTGStarAnimationView.m */; };
+		BF3759BB1E5CA2C400BB1015 /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3759B71E5CA2C400BB1015 /* QCMethod.m */; };
+		BF3759BC1E5CA2C400BB1015 /* UIView+TTGStarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3759B91E5CA2C400BB1015 /* UIView+TTGStarAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF3759991E5CA29000BB1015 /* QuartzCodeStarAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzCodeStarAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF37599D1E5CA29000BB1015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF37599F1E5CA29000BB1015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF3759A01E5CA29000BB1015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF3759A21E5CA29000BB1015 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF3759A31E5CA29000BB1015 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF3759A61E5CA29000BB1015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3759A81E5CA29000BB1015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3759AB1E5CA29000BB1015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3759AD1E5CA29000BB1015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3759B41E5CA2C400BB1015 /* TTGStarAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGStarAnimationView.h; sourceTree = "<group>"; };
+		BF3759B51E5CA2C400BB1015 /* TTGStarAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGStarAnimationView.m; sourceTree = "<group>"; };
+		BF3759B61E5CA2C400BB1015 /* QCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
+		BF3759B71E5CA2C400BB1015 /* QCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMethod.m; sourceTree = "<group>"; };
+		BF3759B81E5CA2C400BB1015 /* UIView+TTGStarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTGStarAnimation.h"; sourceTree = "<group>"; };
+		BF3759B91E5CA2C400BB1015 /* UIView+TTGStarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTGStarAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3759961E5CA29000BB1015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3759901E5CA29000BB1015 = {
+			isa = PBXGroup;
+			children = (
+				BF37599B1E5CA29000BB1015 /* QuartzCodeStarAnimationExample */,
+				BF37599A1E5CA29000BB1015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF37599A1E5CA29000BB1015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3759991E5CA29000BB1015 /* QuartzCodeStarAnimationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF37599B1E5CA29000BB1015 /* QuartzCodeStarAnimationExample */ = {
+			isa = PBXGroup;
+			children = (
+				BF3759B31E5CA2C400BB1015 /* ASCStarAnimation */,
+				BF37599F1E5CA29000BB1015 /* AppDelegate.h */,
+				BF3759A01E5CA29000BB1015 /* AppDelegate.m */,
+				BF3759A21E5CA29000BB1015 /* ViewController.h */,
+				BF3759A31E5CA29000BB1015 /* ViewController.m */,
+				BF3759A51E5CA29000BB1015 /* Main.storyboard */,
+				BF3759A81E5CA29000BB1015 /* Assets.xcassets */,
+				BF3759AA1E5CA29000BB1015 /* LaunchScreen.storyboard */,
+				BF3759AD1E5CA29000BB1015 /* Info.plist */,
+				BF37599C1E5CA29000BB1015 /* Supporting Files */,
+			);
+			path = QuartzCodeStarAnimationExample;
+			sourceTree = "<group>";
+		};
+		BF37599C1E5CA29000BB1015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF37599D1E5CA29000BB1015 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF3759B31E5CA2C400BB1015 /* ASCStarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BF3759B41E5CA2C400BB1015 /* TTGStarAnimationView.h */,
+				BF3759B51E5CA2C400BB1015 /* TTGStarAnimationView.m */,
+				BF3759B61E5CA2C400BB1015 /* QCMethod.h */,
+				BF3759B71E5CA2C400BB1015 /* QCMethod.m */,
+				BF3759B81E5CA2C400BB1015 /* UIView+TTGStarAnimation.h */,
+				BF3759B91E5CA2C400BB1015 /* UIView+TTGStarAnimation.m */,
+			);
+			path = ASCStarAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3759981E5CA29000BB1015 /* QuartzCodeStarAnimationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3759B01E5CA29000BB1015 /* Build configuration list for PBXNativeTarget "QuartzCodeStarAnimationExample" */;
+			buildPhases = (
+				BF3759951E5CA29000BB1015 /* Sources */,
+				BF3759961E5CA29000BB1015 /* Frameworks */,
+				BF3759971E5CA29000BB1015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzCodeStarAnimationExample;
+			productName = QuartzCodeStarAnimationExample;
+			productReference = BF3759991E5CA29000BB1015 /* QuartzCodeStarAnimationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3759911E5CA29000BB1015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tutuge;
+				TargetAttributes = {
+					BF3759981E5CA29000BB1015 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BF3759941E5CA29000BB1015 /* Build configuration list for PBXProject "QuartzCodeStarAnimationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3759901E5CA29000BB1015;
+			productRefGroup = BF37599A1E5CA29000BB1015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3759981E5CA29000BB1015 /* QuartzCodeStarAnimationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3759971E5CA29000BB1015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3759AC1E5CA29000BB1015 /* LaunchScreen.storyboard in Resources */,
+				BF3759A91E5CA29000BB1015 /* Assets.xcassets in Resources */,
+				BF3759A71E5CA29000BB1015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3759951E5CA29000BB1015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3759A41E5CA29000BB1015 /* ViewController.m in Sources */,
+				BF3759BB1E5CA2C400BB1015 /* QCMethod.m in Sources */,
+				BF3759BA1E5CA2C400BB1015 /* TTGStarAnimationView.m in Sources */,
+				BF3759BC1E5CA2C400BB1015 /* UIView+TTGStarAnimation.m in Sources */,
+				BF3759A11E5CA29000BB1015 /* AppDelegate.m in Sources */,
+				BF37599E1E5CA29000BB1015 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF3759A51E5CA29000BB1015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3759A61E5CA29000BB1015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3759AA1E5CA29000BB1015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3759AB1E5CA29000BB1015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3759AE1E5CA29000BB1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3759AF1E5CA29000BB1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3759B11E5CA29000BB1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuartzCodeStarAnimationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tutuge.QuartzCodeStarAnimationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF3759B21E5CA29000BB1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuartzCodeStarAnimationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tutuge.QuartzCodeStarAnimationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3759941E5CA29000BB1015 /* Build configuration list for PBXProject "QuartzCodeStarAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3759AE1E5CA29000BB1015 /* Debug */,
+				BF3759AF1E5CA29000BB1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3759B01E5CA29000BB1015 /* Build configuration list for PBXNativeTarget "QuartzCodeStarAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3759B11E5CA29000BB1015 /* Debug */,
+				BF3759B21E5CA29000BB1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3759911E5CA29000BB1015 /* Project object */;
+}
