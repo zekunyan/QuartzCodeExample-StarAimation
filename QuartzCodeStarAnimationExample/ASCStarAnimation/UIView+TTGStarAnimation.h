@@ -25,16 +25,18 @@
 /**
  *  Show
  *
- *  @param animated if with animation
+ *  @param animated If with animation
+ *  @param complete Show complete callback
  */
-- (void)ttg_showStarAnimated:(BOOL)animated;
+- (void)ttg_showStarAnimated:(BOOL)animated complete:(void (^)())complete;
 
 /**
  *  Hide
  *
- *  @param animated if with animation
+ *  @param animated If with animation
+ *  @param complete Hide complete callback
  */
-- (void)ttg_hideStarAnimated:(BOOL)animated;
+- (void)ttg_hideStarAnimated:(BOOL)animated complete:(void (^)())complete;
 
 /**
  *  Current state

@@ -46,7 +46,7 @@ static NSString *const kTTGButtonStarAnimationViewKey = @"kTTGButtonStarAnimatio
     [self ttg_setStarIsShow:NO];
 }
 
-- (void)ttg_showStarAnimated:(BOOL)animated {
+- (void)ttg_showStarAnimated:(BOOL)animated complete:(void (^)())complete {
     TTGStarAnimationView *starAnimationView = [self ttg_getStarAnimationView];
     
     if (![self ttg_getStarIsShow]) {
@@ -60,6 +60,11 @@ static NSString *const kTTGButtonStarAnimationViewKey = @"kTTGButtonStarAnimatio
             starAnimationView.fillLayer.hidden = NO;
             starAnimationView.emptyLayer.hidden = YES;
             starAnimationView.replicatedLayer.hidden = YES;
+            
+            // Call back
+            if (complete) {
+                complete();
+            }
         };
 
         if (animated) {
@@ -84,7 +89,7 @@ static NSString *const kTTGButtonStarAnimationViewKey = @"kTTGButtonStarAnimatio
     }
 }
 
-- (void)ttg_hideStarAnimated:(BOOL)animated {
+- (void)ttg_hideStarAnimated:(BOOL)animated complete:(void (^)())complete {
     TTGStarAnimationView *starAnimationView = [self ttg_getStarAnimationView];
     
     if ([self ttg_getStarIsShow]) {
@@ -98,6 +103,11 @@ static NSString *const kTTGButtonStarAnimationViewKey = @"kTTGButtonStarAnimatio
             starAnimationView.fillLayer.hidden = YES;
             starAnimationView.emptyLayer.hidden = NO;
             starAnimationView.replicatedLayer.hidden = YES;
+            
+            // Call back
+            if (complete) {
+                complete();
+            }
         };
         
         if (animated) {

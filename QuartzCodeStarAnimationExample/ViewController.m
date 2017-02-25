@@ -31,10 +31,14 @@
 - (IBAction)onTapButton:(UIButton *)button {
     if ([button ttg_getStarIsShow]) {
         _infoLabel.text = @"Tap to star !";
-        [button ttg_hideStarAnimated:YES];
+        [button ttg_hideStarAnimated:YES complete:^{
+            NSLog(@"hide done");
+        }];
     } else {
         _infoLabel.text = @"Tap to unstar !";
-        [button ttg_showStarAnimated:YES];
+        [button ttg_showStarAnimated:YES complete:^{
+            NSLog(@"show done");
+        }];
     }
 }
 
